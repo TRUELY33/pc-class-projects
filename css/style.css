@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Indie Flower', cursive;
+    font-size: 25px;
+    background-color: #b3ffff;
+}
+
+.banner {
+    height: 390px;
+    width: 100%;
+    display: flex; 
+    align-items: center;    
+    font-size: 4rem;
+    background-size: cover;
+}
+.index-banner {
+    background: 
+    /* top, transparent white */ 
+    linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, .4)
+    ),
+    /* bottom, image */
+    url(../images/cartoon-fancy-lady.jpg);
+        
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    font-size: 1.3rem;
+    
+}
+
+nav li {
+    width: 25%;
+    text-align: center;
+    border-left: 2px solid #000;
+}
+    nav a:hover {
+    color: #ff33bb;
+    background: #00cc00;
+}
+
+nav li:first-child {
+    border-left: none;
+}
+
+nav a{
+    text-decoration: none;
+    color:#000;
+    padding: 5px;
+    display: inline-block;
+    transition:  .25s;
+}
+
+.main-content-header {
+    text-align: center;
+    font-size: 3rem;
+    margin: 4rem 0;
+    padding-top: 80px;
+    padding-left: 100px;
+}
+.img1 {
+    text-align: center;
+   
+}
+
+.tab { margin-left: 80px; }
+.tab2 { margin-left: 150px; }
+
+.col-3 {
+    width: 33.33%;
+    padding: 1rem;
+    margin: 1rem;
+    background: #ddd;
+}
+.row {
+    display: flex;
+}
+
+.spacing {
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+   
+
